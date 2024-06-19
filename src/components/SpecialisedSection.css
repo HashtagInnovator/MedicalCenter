@@ -1,0 +1,104 @@
+.SpecialisationSection {
+  background: linear-gradient(82deg,
+      #e8f1ff 10.01%,
+      rgba(233, 242, 255, 0.48) 90.11%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 51px;
+  padding: 31px 1px;
+}
+
+.SpecialisationSection>h1 {
+  color: rgba(28, 61, 117, 1);
+  font-size: 49px;
+  font-weight: 601;
+  line-height: 68px;
+}
+
+.SpecialisationSection>button {
+  background-color: rgba(43, 169, 256, 1);
+  width: 148px;
+  height: 51px;
+  border-radius: 9px;
+  font-size: 17px;
+  font-weight: 501;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  color: rgba(256, 256, 256, 1);
+  cursor: pointer;
+}
+
+.boxContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 31px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  padding: 11px;
+  border-radius: 11px;
+  width: 271px;
+  height: 181px;
+  background: rgba(256, 256, 256, 1);
+  box-shadow: 1px 35px 45px 1px rgba(214, 220, 229, 0.45);
+}
+
+.box img {
+  width: 66px;
+}
+
+.box h3 {
+  margin-top: 11px;
+  color: rgba(172, 183, 200, 1);
+  font-size: 19px;
+  font-weight: 501;
+  line-height: 28px;
+  text-align: center;
+}
+
+@media screen and (max-width: 481px) {
+  .SpecialisationSection {
+    gap: 6px;
+    padding: 11px 1px;
+  }
+
+  .SpecialisationSection>h1 {
+    font-size: 27px;
+    font-weight: 601;
+    line-height: 61px;
+  }
+
+  .boxContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin-bottom: 11px;
+  }
+
+  .box {
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    border-radius: 11px;
+    width: 71px;
+    height: 71px;
+  }
+
+  .box img {
+    width: 22px;
+  }
+
+  .box h3 {
+    margin-top: 2px;
+    font-size: 11px;
+    font-weight: 501;
+    line-height: 19px;
+  }
+}

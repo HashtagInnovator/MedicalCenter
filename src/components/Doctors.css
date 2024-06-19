@@ -1,0 +1,88 @@
+.TeamSection {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.TeamSection h1 {
+  color: rgba(27, 60, 116, 1);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 67px;
+}
+
+.TeamSection .swiper-container {
+  margin-top: 50px;
+}
+
+.TeamSection .profile-data {
+  width: 350px;
+  margin: 50px 0;
+}
+
+.TeamSection .profile {
+  height: 395px;
+  padding: 50px 17px 0 17px;
+  border-radius: 250px 250px 4px 4px;
+  background: linear-gradient(144.2deg, #e1f3ff 0%, #2aa7ff 100%);
+  border: 10px solid rgba(255, 255, 255, 1);
+  box-shadow: 0px 15px 55px -10px rgba(0, 0, 0, 0.09);
+  border-bottom: none;
+}
+
+.TeamSection .image {
+  width: 100%;
+  height: 100%;
+}
+
+.TeamSection .data {
+  margin: 10px 0;
+}
+
+.TeamSection .data h1 {
+  color: rgba(27, 60, 116, 1);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.TeamSection .data p {
+  color: rgba(42, 167, 255, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+@media screen and (max-width: 480px) {
+  .TeamSection {
+    padding: 30px 0;
+  }
+
+  .TeamSection h1 {
+    font-size: 28px;
+    line-height: 35px;
+    margin-top: 30px;
+  }
+
+  .TeamSection .profile-data {
+    width: 320px;
+    margin: 20px 0;
+  }
+
+  .TeamSection .profile {
+    height: 320px;
+  }
+
+  .TeamSection .data {
+    margin: 2px 0;
+  }
+
+  .TeamSection .data h1 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .TeamSection .data p {
+    font-size: 16px;
+    line-height: 29px;
+  }
+}

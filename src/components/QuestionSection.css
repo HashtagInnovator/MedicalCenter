@@ -1,0 +1,112 @@
+.getAns {
+  color: rgba(42, 168, 255, 1);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+  margin: 36px 0px 6px 0px;
+}
+
+.freq {
+  color: rgba(27, 61, 117, 1);
+  font-size: 49px;
+  font-weight: 600;
+  line-height: 68px;
+  text-align: center;
+  margin: 6px 0px 36px 0px;
+}
+
+.imgSec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 51px;
+  position: relative;
+}
+
+.quest>div {
+  display: flex;
+  width: 421px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quest>div>p {
+  color: rgba(27, 61, 117, 1);
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 31px;
+  margin: 31px 0px;
+  width: 381px;
+}
+
+.likesSec {
+  position: absolute;
+  left: 151px;
+  bottom: 101px;
+}
+
+.loveSec {
+  position: absolute;
+  left: 706px;
+  top: 171px;
+}
+
+@media screen and (max-width: 480px) {
+  .getAns {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 16px 0px 6px 0px;
+  }
+
+  .freq {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 31px;
+    margin: 6px 0px 6px 0px;
+  }
+
+  .imgSec {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    position: relative;
+  }
+
+  .doc {
+    width: 321px;
+  }
+
+  .quest>div {
+    width: 321px;
+    margin-bottom: 6px;
+  }
+
+  .quest>div>p {
+    color: rgba(27, 61, 117, 1);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 6px 0px;
+    width: 321px;
+  }
+
+  .likesSec {
+    position: absolute;
+    left: 11px;
+    bottom: 201px;
+    width: 151px;
+  }
+
+  .loveSec {
+    position: absolute;
+    left: 261px;
+    top: 51px;
+    width: 101px;
+  }
+
+  .quest>div>img {
+    width: 11px;
+  }
+}

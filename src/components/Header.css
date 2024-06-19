@@ -1,0 +1,23 @@
+.mainText {
+  width: 100%;
+  background: rgba(42, 167, 255, 1);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  padding: 6px;
+  color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 768px) {
+  .mainText {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .mainText {
+    font-size: 9px;
+    padding: 12px;
+  }
+}

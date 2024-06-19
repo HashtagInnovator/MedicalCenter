@@ -1,0 +1,288 @@
+.MainBanner {
+  width: 100%;
+  background: linear-gradient(81deg,
+      #e7f0ff 9.01%,
+      rgba(232, 241, 255, 0.47) 89.11%);
+}
+
+.bannerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 100px;
+  margin-bottom: 260px;
+}
+
+.bannerText {
+  width: 45%;
+}
+
+.bannerText>h3 {
+  font-size: 31px;
+  font-weight: 500;
+
+
+  text-align: left;
+  color: rgba(16, 40, 81, 1);
+}
+
+.bannerText>h3>span:nth-child(1) {
+  color: rgba(0, 0, 0, 1);
+  font-size: 56px;
+  font-weight: 700;
+
+
+  text-align: left;
+}
+
+.bannerText>h3>span:nth-child(2) {
+  color: rgba(42, 167, 255, 1);
+  font-size: 56px;
+  font-weight: 700;
+
+
+  text-align: left;
+}
+
+.bannerText>p {
+  color: rgba(92, 97, 105, 1);
+  font-size: 20px;
+  font-weight: 400;
+
+
+  text-align: left;
+}
+
+.bannerText>button {
+  background-color: rgba(42, 168, 255, 1);
+  padding: 12px 36px 12px 36px;
+  border-radius: 8px;
+  margin: 30px 0px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 500;
+
+
+  cursor: pointer;
+}
+
+.promoImg {
+  width: 100%;
+  background-color: #fff;
+  padding-top: 160px;
+  padding-bottom: 10px;
+}
+
+.promoImgMobile {
+  display: none;
+}
+
+.promo {
+  width: 398px;
+  height: 199px;
+  border-radius: 20px;
+  margin: 40px 0px;
+}
+
+.floatingContainer {
+  border: 1px solid rgba(240, 240, 240, 1);
+  width: 1170px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 6px 6px 35px 0px rgba(16, 40, 81, 0.11);
+  border-radius: 15px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 560px;
+  margin: auto;
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin: 60px 0px;
+}
+
+.inputControl {
+  height: 60px;
+  border-radius: 8px;
+  background-color: rgba(250, 251, 254, 1);
+  border: 1px solid rgba(240, 240, 240, 1);
+  display: flex;
+  align-items: center;
+}
+
+.selectWidth {
+  width: 285px;
+}
+
+.inputControl>img {
+  padding: 15px;
+}
+
+.inputControl>select {
+  padding: 10px 0px;
+  background-color: rgba(250, 251, 254, 1);
+  color: rgba(171, 182, 199, 1);
+  font-size: 15px;
+  font-weight: 400;
+
+
+}
+
+.inputControl>input {
+  padding: 10px 0px;
+  background-color: rgba(250, 251, 254, 1);
+  color: rgba(171, 182, 199, 1);
+  font-size: 15px;
+  font-weight: 400;
+
+
+}
+
+.searchButton {
+  width: 121px;
+  height: 60px;
+  border-radius: 8px;
+  background-color: rgba(42, 168, 255, 1);
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  gap: 10px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 500;
+
+
+  cursor: pointer;
+}
+
+.floatingContainer>h5 {
+  text-align: center;
+  color: rgba(16, 40, 81, 1);
+  font-size: 20px;
+  font-weight: 500;
+
+
+}
+
+.categories {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin: 35px 0px;
+  gap: 20px;
+}
+
+.categories>div {
+  width: 200px;
+  height: 160px;
+  border-radius: 8px;
+  background-color: rgba(250, 251, 254, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.categories>div>img {
+  width: 60px;
+  height: 60px;
+}
+
+.categories>div>h6 {
+  color: rgba(171, 182, 199, 1);
+  font-size: 18px;
+  font-weight: 400;
+
+
+}
+
+@media screen and (max-width: 1440px) {
+  .bannerContent {
+    margin: 0px 100px;
+    margin-bottom: 260px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bannerContent {
+    margin: 0px 30px;
+    margin-bottom: 260px;
+  }
+
+  .bannerContent>img {
+    width: 55%;
+  }
+
+  .bannerText {
+    width: 85%;
+  }
+
+  .bannerText>h3 {
+    font-size: 20px;
+
+  }
+
+  .bannerText>h3>span:nth-child(1) {
+    font-size: 36px;
+
+  }
+
+  .bannerText>h3>span:nth-child(2) {
+    font-size: 36px;
+
+  }
+
+  .bannerText>p {
+    font-size: 15px;
+  }
+
+  .floatingContainer {
+    width: 80%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 440px;
+  }
+
+  .formContainer {
+    gap: 10px;
+    margin: 30px 20px;
+  }
+
+  .floatingContainer>h5 {
+    font-size: 20px;
+    font-weight: 500;
+
+
+  }
+
+  .categories {
+    width: 100%;
+    margin: 10px 5px;
+    gap: 10px;
+  }
+
+  .categories>div {
+    width: 100px;
+    height: 100px;
+    gap: 10px;
+  }
+
+  .categories>div>img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .categories>div>h6 {
+    font-size: 15px;
+    font-weight: 400;
+
+
+  }
+}
